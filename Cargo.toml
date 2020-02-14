@@ -1,0 +1,15 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+authors = ["Jordan Juel <Jordan.Juel@ameritas.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.8.0"
+
+# The profile used for `cargo build`
+[profile.dev]
+
+
+# The profile used for `cargo build --release`
+[profile.release]
